@@ -1,7 +1,10 @@
- language: node_js
- node_js:
-   - "0.10"
- deploy:
-   provider: heroku
-   api_key: 05aedb10-9928-4f2c-a0af-457f690fc3d6
-   app: testnoder
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: FVUmMWSYxgxIpfZgV1PpD4EIakXDRQVRllftRKUcXvZR8Fk773m03A0sHnha8unV1cKIwdQE1usYafHCFjswKE0lOfQ7vSPPRXDCc6g+KO2RJ+a+w1kqM0miYjlUvzagEFpQEFcNbNXgzW4pokzJuW0r1e3z8UkvEN9QoyE8yH0=
+  app: testnoder
+  on:
+    repo: jensoleg/testnode
