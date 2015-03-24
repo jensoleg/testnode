@@ -3,7 +3,7 @@
 var app = require('../app');
 
 function main(req, res) {
-  res.send('Server nodetest is up on heroku ?');
+  res.send('Test server is up on heroku');
 }
 
 // Routes
